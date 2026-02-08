@@ -1,1 +1,1 @@
-# Noor-ul-Euran
+# Noor-ul-Quran
