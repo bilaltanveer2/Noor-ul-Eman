@@ -15,7 +15,7 @@ const ResourcesSection = () => {
           <div className="flex-shrink-0 animate-slide-in-left" style={{ animationDelay: '0.3s', opacity: 0 }}>
             <img 
               src={resources} 
-              alt="Resources" 
+              alt="Quran Learning Resources at Noor-ul-Eman" 
               className="w-64 h-48 md:w-80 md:h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
@@ -23,7 +23,7 @@ const ResourcesSection = () => {
           {/* Content */}
           <div className="text-center md:text-left max-w-md animate-slide-in-right" style={{ animationDelay: '0.5s', opacity: 0 }}>
             <p className="text-muted-foreground leading-relaxed">
-              We also provide simple resources to support Quran learning at home, including guidance for daily Salah, essential Duas, and practice support for students. More resources will be added gradually, In shaa Allah.
+              At Noor-ul-Eman, we provide valuable resources to support Quran learning at home, including guidance for daily Salah, essential Duas, and practice materials for students. Our comprehensive resources help reinforce learning and spiritual growth. More resources will be added gradually, In shaa Allah.
             </p>
           </div>
         </div>

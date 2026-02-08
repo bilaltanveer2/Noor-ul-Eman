@@ -16,7 +16,7 @@ const FreeDemoSection = () => {
           <div className="flex-shrink-0 animate-slide-in-left" style={{ animationDelay: '0.3s', opacity: 0 }}>
             <img 
               src={hifzQuran} 
-              alt="Free Demo Class" 
+              alt="Free Demo Class at Noor-ul-Eman" 
               className="w-64 h-48 md:w-80 md:h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
@@ -24,7 +24,7 @@ const FreeDemoSection = () => {
           {/* Content */}
           <div className="text-center md:text-left max-w-md animate-slide-in-right" style={{ animationDelay: '0.5s', opacity: 0 }}>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Ready to begin your Quran learning journey? Book a free demo class and experience our supportive teaching environment firsthand. See how our qualified teachers can help you or your child connect with the Quran.
+              Ready to begin your Quran learning journey with Noor-ul-Eman? Book a free demo class and experience our supportive teaching environment firsthand. Discover how our qualified teachers can help you or your child connect with the Quran through proper recitation, understanding, and Islamic character building.
             </p>
             
             <Button 

@@ -21,7 +21,7 @@ const AboutSection = () => {
           <div ref={logoAnim.ref} className={`flex-shrink-0 scroll-scale ${logoAnim.isVisible ? 'visible' : ''}`}>
             <img 
               src={logo} 
-              alt="Noor ul Quran Logo" 
+              alt="Noor-ul-Eman Logo" 
               className="w-48 h-48 md:w-56 md:h-56 object-contain"
             />
           </div>
@@ -29,7 +29,7 @@ const AboutSection = () => {
           {/* Content */}
           <div ref={contentAnim.ref} className={`text-center md:text-left max-w-md scroll-slide-right ${contentAnim.isVisible ? 'visible' : ''}`}>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              Noor ul Quran is an online Quran learning platform dedicated to helping students build a strong connection with the Quran through correct recitation, understanding, and Islamic character building. Our classes are designed for children, women, and adults in a calm and supportive online environment.
+              Noor-ul-Eman is an online Quran learning platform dedicated to helping students build a strong connection with the Quran through correct recitation, understanding, and Islamic character building. Our classes are designed for children, women, and adults in a calm and supportive online environment.
             </p>
             
             <Button 

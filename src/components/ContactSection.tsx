@@ -17,7 +17,7 @@ const ContactSection = () => {
           <div className="flex-shrink-0 animate-slide-in-left" style={{ animationDelay: '0.3s', opacity: 0 }}>
             <img 
               src={contactLantern} 
-              alt="Contact Us" 
+              alt="Contact Noor-ul-Eman" 
               className="w-48 h-64 md:w-56 md:h-72 object-cover rounded-lg shadow-lg"
             />
           </div>
@@ -25,7 +25,7 @@ const ContactSection = () => {
           {/* Content */}
           <div className="text-center md:text-left max-w-md animate-slide-in-right" style={{ animationDelay: '0.5s', opacity: 0 }}>
             <p className="text-muted-foreground leading-relaxed mb-6">
-              We're here to help you get started on your Quran learning journey. Whether you have questions, want to book a free demo, or need guidance for your child, feel free to reach out.
+              At Noor-ul-Eman, we're here to help you get started on your Quran learning journey. Whether you have questions about our courses, want to book a free demo, or need guidance for your child's Islamic education, feel free to reach out to our friendly team.
             </p>
             
             {/* Contact Icons */}
@@ -51,7 +51,7 @@ const ContactSection = () => {
             {/* Contact Details */}
             <div className="text-sm text-muted-foreground space-y-1 mb-6">
               <p><strong>Phone / WhatsApp:</strong> +92 348 5094889</p>
-              <p><strong>Email:</strong> noorulquran2646@gmail.com</p>
+              <p><strong>Email:</strong> info@nooruleman.com</p>
             </div>
             
             <Button 

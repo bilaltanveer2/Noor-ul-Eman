@@ -46,7 +46,7 @@ const CourseCard = ({ image, title, description, index = 0 }: CourseCardProps) =
         
         {/* Content */}
         <h3 className="font-serif text-xl font-semibold text-foreground mb-3 group-hover:text-primary transition-colors duration-300 drop-shadow-sm">
-          {title}
+          <span className="sr-only">Course: </span>{title}
         </h3>
         <p className="text-sm text-muted-foreground mb-4 leading-relaxed drop-shadow-sm">
           {description}

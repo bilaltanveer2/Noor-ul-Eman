@@ -20,7 +20,7 @@ const InclusiveLearningSection = () => {
           <div ref={imageAnim.ref} className={`flex-shrink-0 scroll-slide-left ${imageAnim.isVisible ? 'visible' : ''}`}>
             <img 
               src={inclusiveLearning} 
-              alt="Inclusive Learning" 
+              alt="Inclusive Learning at Noor-ul-Eman" 
               className="w-64 h-48 md:w-80 md:h-60 object-cover rounded-lg shadow-lg"
             />
           </div>
@@ -28,7 +28,7 @@ const InclusiveLearningSection = () => {
           {/* Content */}
           <div ref={contentAnim.ref} className={`text-center md:text-left max-w-md scroll-slide-right ${contentAnim.isVisible ? 'visible' : ''}`}>
             <p className="text-muted-foreground leading-relaxed">
-              At Noor ul Quran, we understand that every child learns differently. We provide supportive Quran learning for children with special needs, including autism and ADHD. Our teachers are experienced in working with such learners, offering patience, structure, and individualized attention in a calm and encouraging environment.
+              At Noor-ul-Eman, we understand that every child learns differently. We provide supportive Quran learning for children with special needs, including autism and ADHD. Our teachers are experienced in working with such learners, offering patience, structure, and individualized attention in a calm and encouraging environment.
             </p>
           </div>
         </div>
