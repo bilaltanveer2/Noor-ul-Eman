@@ -47,8 +47,8 @@ const Navbar = () => {
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <img src={logo} alt="Noor ul Quran" className="h-8 w-8" />
-              <span className="text-primary-foreground font-serif text-lg">Noor ul Quran</span>
+              <img src={logo} alt="Noor-ul-Eman" className="h-8 w-8" />
+              <span className="text-primary-foreground font-serif text-lg">Noor-ul-Eman</span>
             </div>
           </div>
         </div>
@@ -61,8 +61,8 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <img src={logo} alt="Noor ul Quran" className="h-8 w-8" />
-            <span className="text-primary-foreground font-serif text-lg">Noor ul Quran</span>
+            <img src={logo} alt="Noor-ul-Eman" className="h-8 w-8" />
+            <span className="text-primary-foreground font-serif text-lg">Noor-ul-Eman</span>
           </div>
           
           <Button
